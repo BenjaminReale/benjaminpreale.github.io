@@ -1,16 +1,16 @@
 <@DOCTYPE html>
 <html>
 <head>
-	<meta charset='UTF-8'>
+	<meta charset="UTF-8">
 	<title> {{ page.title }}</title>
 </head>
 <body>
 	<header>
-		<h1><a href='{{ site.baseurl }}/'>{{ site.title }}</a></h1>
+		<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 		<nav>
-			<a href='{{ site.baseurl }}/'>Home</a>
-			<a href='{{ site.baseurl }}/blog'>Blog</a>
-			<a href='{{ site.baseurl }}/about'>About</a>
+			<a href="{{ site.baseurl }}/">Home</a>
+			<a href="{{ site.baseurl }}/blog">Blog</a>
+			<a href="{{ site.baseurl }}/about">About</a>
 		</nav>
 		<hr>
 	</header>
@@ -21,7 +21,7 @@
 	
 	<footer>
 		<hr>
-		<p>&copy; {{ site.time | date:'%Y' }} {{ site.title }}</p>
+		<p>&copy; {{ site.time | date:"%Y" }} {{ site.title }}</p>
 	</footer>
 </body>
 </html>

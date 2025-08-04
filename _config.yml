@@ -1,5 +1,5 @@
-title: 'Benjamin P Reale:
-description: 'Personal Blog, CV, Projects, and Hobbies'
-baseurl: ''
-url: 'https://benjaminpreale.github.io'
+title: "Benjamin P Reale:"
+description: "Personal Blog, CV, Projects, and Hobbies"
+baseurl: ""
+url: "https://benjaminpreale.github.io"
 theme: jekyll-theme-cayman

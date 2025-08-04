@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Welcome to My Webiste'
+title: "Welcome to My Webiste"
 ---
 
 # Welcome!
